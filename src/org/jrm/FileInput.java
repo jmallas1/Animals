@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * Class model for a cat
+ * Class model for a FileInput (read)
  * @author mgreen14
  * @version 1.0
  */
@@ -18,7 +18,6 @@ public class FileInput {
     /**
      * Constructor for FileInput class. Takes a file name will throw exception if file does not exist or is unreadable.
      * @param fileName String representation of a full path to a readable file
-     * @throws FileNotFoundException
      */
     public FileInput(String fileName) {
         this.fileName = fileName;
