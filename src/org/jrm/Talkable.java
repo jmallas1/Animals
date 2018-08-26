@@ -1,7 +1,9 @@
 package org.jrm;
 
 /**
- * Created by mgreen14 on 12/27/17.
+ * Interface for Talkable
+ * @author mgreen14
+ * @version 1.0
  */
 public interface Talkable {
     String talk();
