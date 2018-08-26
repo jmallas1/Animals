@@ -2,6 +2,9 @@ package org.jrm;
 
 import java.util.ArrayList;
 
+/**
+ * Main class for instantiating different Animals and invoking their "talkable" methods
+ */
 public class Main {
 
     private final static FileOutput outFile = new FileOutput("animals.txt");
