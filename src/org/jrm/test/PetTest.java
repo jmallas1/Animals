@@ -1,24 +1,26 @@
 package org.jrm.test;
 
+import org.jrm.Cat;
+import org.jrm.Pet;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/* TODO: Write tests for pet abstract class */
-
 class PetTest {
 
+    private Pet somePet;
+
     @BeforeEach
-    void setUp() {
+    void setUp() { somePet = new Cat(7, "Urza");
     }
 
     @AfterEach
-    void tearDown() {
-    }
+    void tearDown() { somePet = null; }
 
     @Test
     void getName() {
+        assertEquals("Urza", somePet.getName());
     }
 }

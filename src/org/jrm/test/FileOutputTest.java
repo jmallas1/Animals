@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/* TODO: Write tests for file output */
+/* TODO: Ask if you can write junits for file writing? */
 
 class FileOutputTest {
 
@@ -17,7 +17,7 @@ class FileOutputTest {
     @AfterEach
     void tearDown() {
     }
-
+/*
     @Test
     void fileWrite() {
     }
@@ -25,4 +25,6 @@ class FileOutputTest {
     @Test
     void fileClose() {
     }
+*/
+
 }
