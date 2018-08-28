@@ -8,8 +8,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/* TODO: Write tests for Person abstract class */
-
 class PersonTest {
 
     private Person somePerson;
