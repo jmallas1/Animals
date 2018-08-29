@@ -1,4 +1,4 @@
-package org.jrm.test;
+package org.jrm;
 
 import org.jrm.Person;
 import org.jrm.Student;

@@ -1,4 +1,4 @@
-package org.jrm.test;
+package org.jrm;
 
 import org.jrm.FileInput;
 import org.junit.jupiter.api.AfterEach;
@@ -13,7 +13,7 @@ class FileInputTest {
 
     @BeforeEach
     void setUp() {
-        fi = new FileInput("./src/org/jrm/test/FileInputTest.java");
+        fi = new FileInput("./src/org/jrm/FileInputTest.java");
     }
 
     @AfterEach
@@ -27,7 +27,7 @@ class FileInputTest {
 */
     @Test
     void fileReadLine() {
-        assertEquals("package org.jrm.test;", fi.fileReadLine());
+        assertEquals("package org.jrm;", fi.fileReadLine());
     }
 
 /*    @Test

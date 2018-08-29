@@ -1,4 +1,4 @@
-package org.jrm.test;
+package org.jrm;
 
 import org.jrm.Cat;
 import org.jrm.Pet;

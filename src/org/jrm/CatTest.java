@@ -1,4 +1,4 @@
-package org.jrm.test;
+package org.jrm;
 
 import org.jrm.Cat;
 import org.junit.jupiter.api.AfterEach;
@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CatTest {
 
-    public Cat someCat;
+    private Cat someCat;
 
     @BeforeEach
     void setUp() {
